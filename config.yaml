@@ -1,0 +1,15 @@
+service_settings:
+  port: :9990
+  listen_address: 
+sql_settings:
+  driver_name: postgres
+  uri:  postgres://postgres:tamon12@localhost:5432?database=postgres&sslmode=disable
+  timeout: 1
+cache_settings:
+  uri: localhost:6379
+  password:
+  db: 0
+  timeout: 10
+search_settings:
+  uri: http://localhost:9200
+  sniff: false
